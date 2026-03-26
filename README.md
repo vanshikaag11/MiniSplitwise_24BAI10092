@@ -53,12 +53,44 @@ The main goal of this project is to simplify group expense management by:
 Enter number of users:
 3
 
-Enter name of user 1: A
-Enter name of user 2: B
-Enter name of user 3: C
+Enter name of user 1: Alice
+Enter name of user 2: Bob
+Enter name of user 3: Charlie
 
-B owes A: 100.0
-C owes A: 100.0
+--- MENU ---
+
+1. Add Expense
+2. Show Balances
+3. Exit
+
+Enter choice: 1
+Who paid? Alice
+Enter amount: 300
+Enter participants (space separated names):
+Alice Bob Charlie
+
+Expense added successfully!
+
+--- MENU ---
+
+1. Add Expense
+2. Show Balances
+3. Exit
+
+Enter choice: 2
+
+Bob owes Alice: 100.0
+Charlie owes Alice: 100.0
+
+--- MENU ---
+
+1. Add Expense
+2. Show Balances
+3. Exit
+
+Enter choice: 3
+Exiting...
+
 ```
 
 ## Future Enhancements
